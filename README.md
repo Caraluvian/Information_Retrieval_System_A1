@@ -6,3 +6,4 @@ open <Command Prompt>
 py -m pip install --upgrade pip
 py -m pip install numpy
 py -m pip install nltk
+py -m pip install bs4

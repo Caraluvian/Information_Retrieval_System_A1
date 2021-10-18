@@ -42,7 +42,7 @@ def lowercase_text(word):
 
 def remove_punctuations(word):
     new_word = ""
-    punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~…=|`+♥【】►ˇ「」♫♪┌П┐‘’“”。→！？«»◆£€☹☑•ﾟ∀★´`█▬▀•＞¿♦▽♺☮❥'''
+    punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~…=|`+♥【】►ˇ「」♫♪┌П┐‘’“”。→！？«»◆£€☹☑•ﾟ∀★´`█▬▀•＞¿♦▽♺☮❥☃ ☛†®『』～♡②⇒☉④①®◣◢☀￼™☒✈➙➔▪✔✿ⓂⓄⓀⒺⒹⒾⓉ√❤⇒ⒶⓇⓄ▷☞✦✖ⓄⒿⒺⒻⓇⒺⓎⒼⓄⓁⒹⒷⒺⓇⒼ♻ⓌⓄⓇⓁⒹⒿⒺⓌⒾⓈⒽⒸⓄⓃⓇⒺⓈⓥ☆✘✍━▸'''
     for i in range(len(word)):
         if word[i] not in punctuations:
             new_word = new_word + word[i]
